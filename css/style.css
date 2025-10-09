@@ -1,0 +1,30 @@
+:root {
+    --CorFundo: #0B0A14;
+    --BrancoPrincipal: #FFFFFF;
+    --BotaoAzul: #167BF7;
+    --CinzaSecundario: #C0C0C0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--CorFundo);
+    color: var(--BrancoPrincipal);
+}
+
+.principal {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
